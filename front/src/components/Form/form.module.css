@@ -1,0 +1,50 @@
+.contenedor{
+    height: 20vw;
+    width: 20vw;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2vw;
+    position: relative;
+    left: 40vw;
+    top: 13vw;
+    gap: 0.5vw;
+}
+
+.label1, .label2{
+    position: relative;
+    bottom:5vw
+}
+.input1, .input2{
+    position: relative;
+    bottom:5vw;
+    width: 15vw;
+}
+
+.boton{
+    position: relative;
+    bottom:4vw
+}
+
+.img{
+    height: 15vw;
+    position:relative;
+    bottom: 4vw;
+}
+
+input{
+    border-radius: 2vw;
+}
+
+.perra{
+    color: white;
+    position: relative;
+    left: 100px;
+}
+
+.perra2{
+    position: relative;
+    left: 100px;
+}

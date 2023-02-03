@@ -1,0 +1,49 @@
+.container{
+    display: flex;
+    align-items: center;
+}
+
+.search{
+    background-color:   rgb(192, 21, 155);;
+    border-radius: 20rem;
+    width: 15rem;
+    height: 1.5rem;
+    border: transparent;
+    color: white;
+    
+    overflow: hidden;
+    transition: 300ms;
+}
+
+.search::placeholder{
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+.search:hover{
+    /* background-color: rgba(81, 255, 110, 0.461); */
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.461), 0 0 4rem rgba(81, 255, 110, 0.461), 0 0 8rem rgba(81, 255, 110, 0.461);
+}
+
+.container button{
+    margin-left: 1rem;
+    border-radius: 5rem;
+    margin-top: .5rem;
+    width: 5rem;
+    height: 2.2rem;
+    background: rgb(192, 21, 155);
+    border: transparent;
+    margin-bottom: .5rem;
+    color: white;
+
+    overflow: hidden;
+    transition: 300ms;
+}
+
+.container button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    color: rgb(192, 21, 155);
+    background-color: white;
+    border: 1px solid rgb(192, 21, 155);
+}
